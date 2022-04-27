@@ -1,0 +1,40 @@
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: #1c1c1c;
+}
+
+.container {
+  width: 550px;
+  height: 870px;
+  background-color: #23252c;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 320px;
+  height: 780px;
+  background-color: #d1d5db;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.info > img#andptrvc {
+  object-fit: cover;
+}
