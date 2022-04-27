@@ -15,8 +15,12 @@ export default function Info() {
       <h4>Full Stack Java Developer</h4>
       <h5>https://github.com/andptrvc</h5>
       <div className="buttonsholder">
-        <button>Email</button>
-        <button>Linkedin</button>
+        <a href="mailto:apetrovci@outlook.com">
+          <button className="email">Email</button>
+        </a>
+        <a href="https://www.linkedin.com/in/andptrvc/" target="_blank">
+          <button className="linkedin">Linkedin</button>
+        </a>
       </div>
     </div>
   );
